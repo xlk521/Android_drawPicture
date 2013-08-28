@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:title="@string/color">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/red" android:title="red"></item>
+                <item android:id="@+id/green" android:title="green"></item>
+                <item android:id="@+id/blue" android:title="blue"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/width">
+        <menu>
+            <group>
+                <item android:id="@+id/width1" android:title="width1"></item>
+                <item android:id="@+id/width2" android:title="width2"></item>
+                <item android:id="@+id/width3" android:title="width3"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/clear" android:title="clear"/>
+    <item android:id="@+id/save" android:title="save"/>
+
+</menu>
